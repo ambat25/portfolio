@@ -1,0 +1,64 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #0B1624;
+  color: #8E8E8E;
+  padding: 10px;
+  font-size: large;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  transition: background .3s ease;
+  font-family: 'Roboto Mono', monospace;
+}
+
+a {
+  transition: color .3s ease;
+  text-decoration: none;
+  cursor: pointer;
+  color: #D1D1D1;
+}
+
+a:hover {
+  color: #FFF;
+}
+
+::-moz-selection {
+  color: #0099e5
+}
+
+::selection {
+  color: hsl(200, 100%, 45%);
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  justify-self: center;
+  align-self: center;
+}
+
+.content {
+  text-align: center;
+  align-self: center;
+  font-size: larger;
+}
+
+
+.name{
+  font-size: xx-large;
+  font-weight: 800;
+  color: #FFF
+}
+.name span{
+  font-weight: 600;
+}
+
+i {
+  font-size: 40px;
+  margin: 10px;
+}

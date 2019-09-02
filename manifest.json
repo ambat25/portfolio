@@ -1,0 +1,9 @@
+{
+  "name": "Abdulrahman Muhammad Bashir",
+  "short_name": "ambat",
+  "lang": "en-US",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0B1624",
+  "theme_color": "white"
+}

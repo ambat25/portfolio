@@ -60,6 +60,16 @@ a:hover {
   font-weight: 600;
 }
 
+.my-image-container{
+  margin-bottom: 20px;
+}
+
+.my-image{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
 i {
   font-size: 40px;
   margin: 10px;
